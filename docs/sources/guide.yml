@@ -1,0 +1,233 @@
+# Landscape2 guide
+#
+# This file allows defining the content of the landscape guide.
+#
+# The landscape guide is organized into categories and subcategories. Each of
+# these entities requires a name and some content. The content can be provided
+# in markdown format. Categories and subcategories names are not required to
+# match the ones defined in the landscape data file but, when they do, those
+# categories/subcategories will be enriched with some extra information. So
+# whenever possible, it's highly recommended that they do.
+#
+# We recommend using headings of level 4-6 within the content blocks as levels
+# 1-3 are reserved to illustrate the hierarchy of categories and subcategories.
+#
+# The following example contains a subset of the CNCF landscape guide content:
+
+categories:
+  - category: "Technical Skills Landscape"
+
+    subcategories:
+      - subcategory: "Introduciton"
+        content: |
+          This visualization provides a comprehensive overview of Ricardo Henriques’ technical skill set, 
+          showcasing his proficiency in various tools and technologies. Using a [Landscape2](https://github.com/cncf/landscape2) format, 
+          it illustrates the breadth and depth of his expertise, with a particular focus on Infrastructure as Code (IaC),
+          Containers, Kubernetes (K8s), and Apache Kafka. 
+      
+          This visual representation highlights the tools and technologies Ricardo has mastered and applied in recent projects, 
+          offering a clear insight into his capabilities and areas of strength.
+
+          We will now break down each category, providing more information on how each tool was used.
+
+
+  - category: "Software Development"
+    content: |
+      This category highlights his experience with various tools and technologies used in modern software development,
+      showcasing his ability to create robust and reliable software solutions. His expertise spans multiple programming languages, 
+      frameworks, and development methodologies. Ricardo excels in writing clean, efficient, and scalable code, 
+      employing best practices such as version control, continuous integration, and test-driven development.
+
+    subcategories:
+      - subcategory: "Version Control"
+        content: |
+          #### Tools
+          In the Version Control sub-category, Ricardo Henriques primarily utilizes GitHub and other git-related solutions such as GitLab and Bitbucket. 
+          Additionally, he has experience with tools like Perforce.
+          
+          #### Ways of Work
+          Ricardo is well-acquainted with branch models such as Gitflow and principles such as GitOps, ensuring efficient 
+          and organized management of code changes and collaboration within development teams.
+
+          Ricardo leverages pull request templates to standardize contributions and employs branch protection rules to maintain code integrity. 
+          He integrates various checks before merges, including build triggers, linting tools, and semantic PR rules, to ensure high code quality and consistency.
+
+      - subcategory: "Build Tools"
+        content: |
+          #### Tools
+          In the Build Tools sub-category, Ricardo Henriques has recently focused on using Maven for Java projects and Python Poetry for Python projects. 
+          He also has experience building pipelines for other languages, such as Go. Ricardo is proficient in setting up and maintaining efficient 
+          build processes to ensure seamless integration and deployment.
+          
+          #### Ways of Work
+          Ricardo adheres to best practices in software development, employing robust test frameworks and ensuring high test coverage. 
+          This commitment to quality helps maintain reliable and maintainable codebases, facilitating smoother development and deployment cycles.
+
+      - subcategory: "Artifact Repositories"
+        content: |
+          #### Tools
+          In the Artifact Repositories sub-category, Ricardo Henriques has been responsible for deploying and managing tools such as JFrog and Nexus. 
+          His responsibilities included setting up the entire backend infrastructure, creating monitoring, alerting, and backup and restore procedures. 
+          Additionally, he has experience using AWS CodeArtifact and GitHub Packages.
+          
+          #### Ways of Work
+          Ricardo has experience working with various repository setups, including direct access to external repositories, internal repositories, and proxy repositories. 
+          This flexibility ensures that development teams can efficiently access and manage their artifacts regardless of the setup.
+
+      - subcategory: "Continuous Integration and Continuous Deployment (CI/CD)"
+        content: |
+          #### Tools
+          In the CI/CD sub-category, Ricardo Henriques has extensive experience with tools such as Jenkins, which is the most frequently used, as well as TeamCity and Octopus Deploy. 
+          He has successfully set up and maintained CI/CD pipelines to streamline the software development lifecycle.
+
+          #### Ways of Work
+          Ricardo strives to create templates and shared libraries to facilitate the adoption of new setups, ensuring consistency and efficiency across projects. 
+          He also emphasizes automating testing, building, and deployment processes to minimize manual intervention and reduce errors.
+
+      - subcategory: "Infrastructure as Code (IaC)"
+        content: |
+          #### Tools
+          In the IaC sub-category, Ricardo Henriques has a strong background using tools such as Terraform, Ansible, and Checkov. 
+          He excels in automating infrastructure provisioning, configuration management, and compliance checks to ensure consistent and reliable deployments.
+
+          #### Ways of Work
+          Ricardo emphasizes the importance of versioning infrastructure code, enabling rollbacks and tracking changes efficiently. 
+          He advocates for using modular and reusable code to streamline the management of complex environments. 
+          Additionally, he integrates infrastructure testing into CI/CD pipelines to validate changes before deployment, ensuring stability and security.
+
+  - category: "Cloud Computing"
+    content: |
+        In the Cloud Computing category, Ricardo Henriques demonstrates significant expertise in containerization and orchestration technologies, 
+        as well as extensive experience with various cloud service providers. He excels in designing, deploying, and managing scalable 
+        and resilient cloud-based infrastructure to support modern applications.
+
+    subcategories:
+      - subcategory: "Containerization and Orchestration"
+        content: |
+          #### Tools
+          Ricardo is proficient in creating and managing containerized applications using Docker and has experience with Podman as an alternative containerization tool. 
+          He utilizes Kind and Minikube for setting up local Kubernetes environments, facilitating development and testing processes.
+
+          #### Ways of Work
+          Ricardo is adept at creating local development environments using tools like Kind and Minikube. 
+          He has expertise in building Docker images with best practices that leverage layers and ensure security.
+          Additionally, he uses Helm to create charts that standardize application deployments across various environments.
+
+      - subcategory: "Cloud Providers"
+        content: |
+          #### Tools
+          Ricardo has extensive experience with Amazon Web Services (AWS) and some experience with Google Cloud Platform (GCP) and Microsoft Azure.
+
+          #### Ways of Work
+          In AWS, Ricardo leverages cloud services to achieve optimal performance, cost efficiency, and scalability for various applications and workloads. 
+          In GCP, he utilizes the Kubernetes Engine to manage container orchestration effectively. For Azure, he has experience in managing Azure AD for 
+          identity and access management, ensuring secure and streamlined access controls.
+
+  - category: "Security"
+    content: |
+      In the Security category, we will delve into essential aspects of safeguarding infrastructure and applications. 
+      This section will cover Identity and Access Management (IAM), Secret Management, and Service Mesh. 
+      Ricardo Henriques has a robust understanding of these areas, ensuring that security best practices are implemented across all stages of development and deployment.
+
+    subcategories:
+      - subcategory: "Identity and Access Management (IAM)"
+        content: |
+          #### Tools
+          Ricardo is proficient in using Azure Active Directory (AD), OpenLDAP, and Kerberos for identity and access management.
+
+          #### Ways of Work
+          Ricardo has extensive experience connecting Azure AD to be used as a Single Sign-On (SSO) mechanism for several external tools, 
+          enhancing security and simplifying user access management. 
+          With Kerberos and OpenLDAP, he has deployed, managed, and integrated these services with both Linux and Windows environments, 
+          ensuring seamless and secure authentication across diverse systems.
+
+      - subcategory: "Secrets Management"
+        content: |
+          #### Tools
+          Ricardo utilizes Vault for secret management, ensuring the secure storage and handling of sensitive information.
+
+          #### Ways of Work
+          Secret management is typically integrated into CI/CD pipelines, providing automated and secure access to secrets during build and deployment processes. 
+          Additionally, internal secret management solutions are sometimes used for different tools to maintain a consistent and secure approach across 
+          the entire development lifecycle.
+
+      - subcategory: "Service Mesh"
+        content: |
+          #### Tools
+          Ricardo primarily uses Istio for service mesh implementations, though he has also evaluated alternatives such as HashiCorp Consul.
+
+          #### Ways of Work
+          Ricardo has experience deploying Istio on Kubernetes clusters to leverage its security capabilities for service-to-service communication within the cluster.
+          This includes securing communication in a Kafka cluster and its consumer and producer clients.
+          Additionally, Ricardo uses Istio to enhance observability, ensuring comprehensive monitoring and visibility into the service interactions within the cluster.
+
+  - category: "Databases and Data Stores"
+    content: |
+      In the Databases and Data Stores category, we will explore various aspects of data management and processing. 
+      This section will cover Relational Database Management Systems (RDBMS), Monitoring and Logging, Search and Analytics, Big Data and Stream Processing, and NoSQL Databases.
+      Ricardo Henriques has extensive experience in these areas, ensuring efficient, scalable, and secure handling of data across different platforms and use cases.
+
+    subcategories:
+      - subcategory: "Relational Database Management Systems (RDBMS)"
+        content: |
+          #### Tools
+          Before transitioning into DevOps, Ricardo Henriques was an experienced DBA. 
+          He began his journey with IBM Informix and then expanded his expertise to other technologies such as Oracle and Microsoft SQL Server.
+
+          #### Ways of Work
+          Although Ricardo is no longer directly involved in DBA tasks, he still deploys small database instances in containers and more robust ones using cloud services like Amazon RDS, 
+          typically opting for MySQL or PostgreSQL. 
+          His background as a DBA informs his approach to managing and deploying these databases, ensuring they are optimized for performance and reliability.
+
+      - subcategory: "Monitoring and Logging"
+        content: |
+          #### Tools
+          Ricardo has extensive experience with Prometheus and Grafana for monitoring and logging.
+
+          #### Ways of Work
+          Ricardo utilizes the Prometheus Operator with tools such as pod or service monitors and scrape configs to efficiently collect and manage metrics. 
+          For visualization, he uses Grafana to import pre-built dashboards and to create custom ones, tailoring them to 
+          specific monitoring needs and providing comprehensive insights into system performance and health.
+
+      - subcategory: "Search and Analytics"
+        content: |
+          #### Tools
+          Ricardo has worked with Elasticsearch, although not as extensively as desired, and DataHub.
+
+          #### Ways of Work
+          Elasticsearch was one of the first tools Ricardo used in his DevOps journey and remains a favorite despite not being used frequently. 
+          He recently created a small proof of concept (PoC) to showcase the Security Information and Event Management (SIEM) capabilities of Elastic Security. 
+          Additionally, Ricardo was responsible for deploying a self-managed DataHub using AWS resources and demonstrated its capabilities by ingesting metadata from different sources, 
+          showcasing the power and versatility of DataHub in metadata management and analytics.
+
+      - subcategory: "Big Data and Stream Processing"
+        content: |
+          #### Tools
+          Ricardo is an expert Kafka Administrator with advanced experience in Spark from his days as a Hadoop Administrator and has great experience with Airflow.
+
+          #### Ways of Work
+          Ricardo has advanced experience in the entire Kafka ecosystem as an administrator, including deploying and managing core tools 
+          (brokers, Zookeeper, Connect clusters, and Schema Registry). He also assists in creating pipelines for applications and managing Kafka topics and ACLs. 
+          For Spark, Ricardo has helped developers transition from using a Hadoop cluster to leveraging Kubernetes as the resource manager, 
+          utilizing Airflow as the job orchestrator to run Spark jobs efficiently and effectively.
+
+      - subcategory: "NoSQL Databases"
+        content: |
+          #### Tools
+          Ricardo has experience with MongoDB and Cassandra, though not extensively.
+
+          #### Ways of Work
+          Ricardo has typically been involved in the deployment and management of MongoDB and Cassandra in less mature environments. 
+          His experience includes setting up these NoSQL databases and ensuring their basic operational functionality.
+
+  - category: "Amazon Web Services (AWS)"
+    content: |
+        #### Tools
+        As the cloud provider with which Ricardo Henriques has the most experience, Amazon Web Services (AWS) plays a central role in his cloud management portfolio.
+        Ricardo extensively uses AWS Identity and Access Management (IAM) for secure access control, and storage solutions like S3, EFS, and DataSync for robust data management. 
+        He leverages managed services such as RDS, MKS, and OpenSearch to streamline database and search operations. 
+        For containerized applications, Ricardo utilizes the Elastic Kubernetes Service (EKS) and supports users with analytic tools like Athena and Glue.
+        
+        #### Ways of Work
+        Managing AWS cloud resources is done through Infrastructure as Code (IaC) and CI/CD pipelines, ensuring all configurations and deployments are pre-checked and automated for efficiency and reliability.
+

@@ -1,0 +1,488 @@
+landscape:
+  - category: 
+    name: Software Development
+    subcategories:
+      - subcategory:
+        name: Version Control
+        items:
+          - item:
+            name: GitHub
+            description: >-
+              GitHub is a version control platform specifically built for software development. It lets developers host and collaborate on code, track changes, and manage projects.
+              GitHub offers additional features like version control, which allows you to see how the code has changed over time, and collaboration tools that make it easy for multiple developers to work on a project together.
+            homepage_url: https://github.com/
+            logo: github.svg
+          - item:
+            name: Gitlab
+            description: >-
+              GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager, CI/CD pipeline features, and other capabilities for managing the entire 
+              software development and deployment process. It enables teams to collaborate on code, manage projects, and automate workflows, supporting a seamless integration of coding, testing, and deployment tasks.
+            homepage_url: https://about.gitlab.com
+            repo_url: https://gitlab.com/gitlab-org/gitlab
+            logo: gitlab.svg
+          - item:
+            name: Atlassian Bitbucket
+            description: >-
+              Atlassian Bitbucket is a web-based platform that provides Git repository management, supporting source code collaboration for development teams.
+              It offers features like code hosting, pull requests, code review, and continuous integration/continuous deployment (CI/CD) pipelines. 
+              Bitbucket integrates seamlessly with other Atlassian products like Jira and Confluence, enabling comprehensive project tracking and documentation.
+            homepage_url: https://bitbucket.org/product
+            logo: bitbucket.svg
+      - subcategory:
+        name: Artifact Repositories
+        items:
+          - item:
+            name: JFrog Artifactory
+            description: >-
+              JFrog Artifactory is a universal repository manager designed to manage and store binary artifacts generated throughout the software development lifecycle.
+              It supports a wide range of package formats, including Maven, Gradle, Docker, and npm, facilitating seamless integration with CI/CD pipelines. 
+            homepage_url: https://jfrog.com/artifactory/
+            logo: jfrog.svg
+          - item:
+            name: Sonatype Nexus Repository
+            description: >-
+              Sonatype Nexus Repository is a repository manager designed to store, manage, and distribute binary artifacts and dependencies used in software development. 
+              It supports various formats such as Maven, npm, NuGet, Docker, and more, making it versatile for different development ecosystems.
+            homepage_url: https://www.sonatype.com
+            logo: sonatype.svg
+      - subcategory:
+        name: Continuous Integration and Continuous Deployment (CI/CD)
+        items:
+          - item:
+            name: Jenkins
+            description: >-
+              Jenkins is an open-source automation server focused on the software development lifecycle.
+              Jenkins takes your code, runs tests, builds it into a usable application, and can even deploy it automatically. 
+              This frees developers from repetitive tasks and helps ensure consistent and reliable software delivery.
+            homepage_url: https://jenkins.io/
+            repo_url: https://github.com/jenkinsci/jenkins
+            logo: jenkins.svg
+          - item:
+            name: TeamCity
+            description: >-
+              TeamCity is a continuous integration and continuous deployment (CI/CD) server developed by JetBrains.
+              It automates the build, test, and release processes, providing a robust platform for software development teams to ensure code quality and streamline their workflows. 
+            homepage_url: https://www.jetbrains.com/teamcity/
+            logo: teamcity.svg
+          - item:
+            name: Octopus Deploy
+            description: >- 
+              Octopus Deploy is an automated deployment and release management tool designed to simplify and streamline the deployment of applications across various environments. 
+              It integrates with CI servers like Jenkins, TeamCity, and Azure DevOps, facilitating end-to-end automation from build to production.
+            homepage_url: https://octopus.com
+            logo: octopus.svg
+      - subcategory:
+        name: Build Tools
+        items:
+          - item:
+            name: Apache Maven
+            description: >-
+              Maven is a build automation and project management tool primarily used for Java projects. Developed by the Apache Software Foundation,
+              Maven uses an XML file, known as the Project Object Model (POM), to manage a project's build, dependencies, documentation, and reporting.
+            homepage_url: https://maven.apache.org
+            repo_url: https://github.com/apache/maven-sources
+            logo: maven.svg
+          - item:
+            name: Gradle
+            description: >-
+              Gradle is a versatile build automation tool used for building, testing, and deploying software projects. 
+              It combines the best features of Apache Ant and Apache Maven, providing a powerful and flexible system for managing project builds. Gradle uses a domain-specific language (DSL) based on Groovy or Kotlin to define build scripts, offering a more concise and expressive syntax compared to XML-based tools.
+            homepage_url: https://gradle.org
+            repo_url: https://github.com/gradle/gradle
+            logo: gradle.svg
+          - item:
+            name: Poetry
+            description: >- 
+              Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. 
+              Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution.
+            homepage_url: https://python-poetry.org
+            repo_url: https://github.com/python-poetry/poetry
+            logo: poetry.svg
+      - subcategory:
+        name: Infrastructure as Code (IaC)
+        items:
+          - item:
+            name: Terraform
+            description: >-
+               Terraform lets you describe your desired infrastructure state in configuration files, then creates or modifies resources to match that state.  
+               It automates infrastructure provisioning and makes it repeatable and manageable.
+            homepage_url: https://www.terraform.io/
+            repo_url: https://github.com/hashicorp/terraform
+            logo: terraform.svg
+          - item:
+            name: Ansible
+            description: >-
+               Ansible is a suite of software tools that enables infrastructure as code. It is open-source and the suite includes software provisioning, 
+               configuration management, and application deployment functionality.
+            homepage_url: https://www.ansible.com/
+            repo_url: https://github.com/ansible/ansible
+            logo: ansible.svg
+          - item:
+            name: Checkov
+            description: >-
+              Checkov scans cloud infrastructure configurations to find misconfigurations before they are deployed. Checkov manages and analyzes infrastructure
+              as code (IaC) scan results across platforms such as Terraform, CloudFormation, Kubernetes, Helm, ARM Templates and Serverless framework.
+            homepage_url: https://www.checkov.io/
+            repo_url: https://github.com/bridgecrewio/checkov
+            logo: checkov.svg
+  - category: 
+    name: Cloud Computing
+    subcategories:
+      - subcategory:
+        name: Cloud Providers
+        items:
+          - item:
+            name: Amazon Web Serivces (AWS)
+            description: >-
+              Amazon Web Services (AWS) is a comprehensive and widely-used cloud computing platform offered by Amazon. 
+              It provides a vast array of cloud services that include computing power, storage options, databases, networking, machine learning, analytics, and more. 
+            homepage_url: https://aws.amazon.com/
+            logo: aws.svg
+          - item:
+            name: Microsoft Azure
+            description: >-
+              Microsoft Azure is a comprehensive cloud computing platform and infrastructure offered by Microsoft. 
+              It provides a wide range of services including computing power (virtual machines), storage solutions (Azure Blob Storage, Azure Files), databases (Azure SQL Database, Cosmos DB), networking services (Azure Virtual Network, Load Balancer), and developer tools (Azure DevOps, Azure Functions). 
+            homepage_url: https://azure.microsoft.com/
+            logo: azure.svg
+          - item:
+            name: Google Cloud Platform
+            description: >-
+              Google Cloud Platform (GCP) is a suite of cloud computing services provided by Google. It offers a wide range of services for computing, storage, databases, machine learning, networking, and developer tools that help businesses build, deploy, and scale applications and services.
+              GCP's services include Google Compute Engine for virtual machines, Google Cloud Storage for object storage, Google Kubernetes Engine (GKE) for container orchestration, Google BigQuery for data analytics, and Google Cloud AI for machine learning and artificial intelligence.
+            homepage_url: https://cloud.google.com
+            logo: gcp.svg
+      - subcategory:
+        name: Containerization and Orchestration
+        items:
+          - item:
+            name: Docker 
+            description: >-
+              The Docker CLI (Command Line Interface) is a client tool used to interact with Docker Engine, allowing users to manage containers, images, networks, and volumes. 
+              It provides commands for building, running, and managing Docker containers, making it essential for developers and system administrators working with Dockerized applications. 
+            homepage_url: https://www.docker.com/
+            repo_url: https://github.com/docker/cli
+            logo: docker-member.svg
+          - item:
+            name: Podman
+            description: >-
+              Podman is an open-source tool for working with containers on Linux. It lets you find, run, build, and manage container images and applications. 
+              Similar to Docker, it uses a command-line interface (CLI) and is familiar to Docker users.  However, Podman is daemonless, making it more secure for some use cases.
+            homepage_url: https://podman.io/
+            repo_url: https://github.com/containers/podman
+            logo: podman.svg
+          - item:
+            name: Kubernetes
+            description: >-
+              Kubectl is a command-line tool for interacting with Kubernetes clusters. It allows you to manage deployments, inspect resources, view logs, and more. 
+              It's essentially the remote control for your Kubernetes environment.
+            homepage_url: https://kubernetes.io/docs/reference/kubectl/
+            repo_url: https://github.com/kubernetes/kubectl
+            logo: kubernetes.svg
+          - item:
+            name: kind
+            description: kind creates local multi-node Kubernetes clusters using Docker container nodes.
+            homepage_url: https://github.com/kubernetes-sigs/kind
+            repo_url: https://github.com/kubernetes-sigs/kind
+            logo: kind.svg
+          - item:
+            name: minikube
+            description: minikube runs a local Kubernetes cluster on macOS, Linux, and Windows.
+            homepage_url: https://minikube.sigs.k8s.io
+            repo_url: https://github.com/kubernetes/minikube
+            logo: minikube.svg
+          - item:
+            name: Helm
+            description: >-
+              Helm is like a package manager for Kubernetes.  It simplifies deploying and managing complex applications as packaged units called Helm Charts.  
+              Think of it as  apt/yum for Kubernetes applications.  Helm lets you find, install, upgrade, and share these pre-configured packages.               
+            homepage_url: https://helm.sh/
+            repo_url: https://github.com/helm/helm
+            logo: helm.svg
+  - category: 
+    name: Security
+    subcategories:
+      - subcategory:
+        name: Identity and Access Management (IAM)
+        items:
+          - item:
+            name: Kerberos
+            description: Kerberos is a network authentication protocol that provides secure authentication for client-server applications by using secret-key cryptography.
+            homepage_url: https://web.mit.edu/kerberos/
+            repo_url: https://github.com/krb5/krb5
+            logo: mit.svg
+          - item:
+            name: OpenLDAP
+            description: OpenLDAP is an open-source implementation of the Lightweight Directory Access Protocol (LDAP), which is a protocol for accessing and maintaining distributed directory information services over an IP network.
+            homepage_url: https://openldap.org
+            repo_url: https://github.com/openldap/openldap
+            logo: user.svg
+          - item:
+            name: Azure AD
+            description: >-
+              Azure Active Directory (Azure AD), now known as Microsoft Entra ID, is a cloud-based identity and access management (IAM) solution from Microsoft.
+              In a nutshell, it helps organizations manage and secure access to various resources,  both on-premises and in the cloud.
+            homepage_url: https://azure.microsoft.com/products/active-directory/
+            logo: ad.svg
+      - subcategory:
+        name: Secrets Management
+        items:
+          - item:
+            name: Vault
+            description: >-
+              HashiCorp Vault is a software tool specifically designed to securely store and manage secrets and encryption keys.
+              Think of it as a digital vault for sensitive information like passwords, API keys, certificates, and more. 
+            homepage_url: https://www.vaultproject.io/
+            repo_url: https://github.com/hashicorp/vault
+            logo: vault.svg
+      - subcategory:
+        name: Service Mesh
+        items:
+          - item:
+            name: Istio
+            description: Simplify observability, traffic management, security, and policy with the Istio service mesh.
+            homepage_url: https://istio.io
+            repo_url: https://github.com/istio/istio
+            logo: istio.svg
+  - category:
+    name: Databases and Data Stores
+    subcategories:
+      - subcategory:
+        name: Relational Database Management Systems (RDBMS)
+        items:
+          - item:
+            name: Microsoft SQL Server
+            description: Microsoft SQL Server is a relational database management system designed for scalable, high-performance data storage, processing, and security.
+            homepage_url: https://www.microsoft.com/en-gb/sql-server/sql-server-downloads
+            logo: sqlserver.svg
+          - item:
+            name: MySQL
+            description: MySQL is an open-source relational database management system known for its speed, reliability, and ease of use in web applications and data-driven environments.
+            homepage_url: https://www.mysql.com/
+            repo_url: https://github.com/mysql/mysql-server
+            logo: mysql.svg
+          - item:
+            name: Oracle Database
+            description: Oracle is a comprehensive and robust relational database management system renowned for its advanced features, scalability, and security, suitable for enterprise-level applications.
+            homepage_url: https://www.oracle.com/uk/database/
+            logo: oracle.svg
+          - item:
+            name: PostgreSQL
+            description: PostgreSQL is an advanced open-source relational database management system known for its extensibility, standards compliance, and powerful features for complex queries and data integrity.
+            homepage_url: https://www.postgresql.org/
+            repo_url: https://github.com/postgres/postgres
+            logo: postgresql.svg
+      - subcategory:
+        name: NoSQL Databases
+        items:
+          - item:
+            name: MongoDB
+            description: MongoDB is a NoSQL database known for its flexibility, scalability, and ease of use, enabling developers to store and manage large volumes of unstructured data.
+            homepage_url: https://www.mongodb.com/
+            repo_url: https://github.com/mongodb/mongo
+            logo: mongodb.svg
+          - item:
+            name: Apache Cassandra
+            description: Apache Cassandra is a highly scalable, distributed NoSQL database designed for handling large amounts of data across many commodity servers with high availability and no single point of failure.
+            homepage_url: https://cassandra.apache.org/
+            repo_url: https://github.com/apache/cassandra
+            logo: cassandra.svg
+      - subcategory:
+        name: Big Data and Stream Processing
+        items:
+          - item:
+            name: Apache Kafka
+            description: Apache Kafka is a distributed streaming platform designed for building real-time data pipelines and streaming applications, known for its high throughput, scalability, and fault tolerance.
+            homepage_url: https://kafka.apache.org/
+            repo_url: 
+            logo: kafka.svg
+          - item:
+            name: Apache Spark
+            description: >-
+              Apache Spark is an open-source unified analytics engine built for large-scale data processing.  
+              It excels at handling batch, streaming, and machine learning tasks, offering speed and ease of use.
+            homepage_url: https://spark.apache.org/
+            repo_url: https://github.com/apache/spark
+            logo: apache-spark.svg
+          - item:
+            name: Apache Airflow
+            description: >-
+              Apache Airflow is an open-source workflow management platform.  
+              Written in Python, Airflow lets you programmatically define, schedule, and monitor workflows, ensuring tasks run in the right order and at the right time.  
+              This helps automate complex data engineering processes and keep your data pipelines running smoothly.
+            homepage_url: https://airflow.apache.org/
+            repo_url: https://github.com/apache/airflow/
+            logo: airflow.svg
+      - subcategory:
+        name: Search and Analytics
+        items:
+          - item:
+            name: Elasticsearch
+            description: Elasticsearch is a distributed, open-source search and analytics engine designed for fast and scalable full-text search, logging, and real-time data analysis.
+            homepage_url: https://www.elastic.co/
+            repo_url: https://github.com/elastic/elasticsearch
+            logo: elastic.svg
+          - item:
+            name: DataHub
+            description: DataHub is an open-source metadata platform designed for data discovery, cataloging, and governance, enabling collaboration and trust in data across an organization.
+            homepage_url: https://datahubproject.io/
+            repo_url: https://github.com/datahub-project/datahub
+            logo: datahub.svg
+      - subcategory:
+        name: Monitoring and Logging
+        items:
+          - item:
+            name: Prometheus
+            description: >-
+              Prometheus is an open-source toolkit for monitoring systems and setting alerts.  
+              It collects data points (metrics) over time, allowing you to track application and infrastructure health. 
+            homepage_url: https://prometheus.io/
+            repo_url: https://github.com/prometheus/prometheus
+            logo: prometheus.svg
+          - item:
+            name: Grafana
+            description: >-
+              Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture.
+            homepage_url: https://grafana.com/
+            repo_url: https://github.com/grafana/grafana
+            logo: grafana.svg
+          - item:
+            name: Grafana Loki
+            description: >-
+              Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
+            homepage_url: https://grafana.com/oss/loki
+            repo_url: https://github.com/grafana/loki
+            logo: grafana-loki.svg
+  - category:
+    name: Amazon Web Services (AWS)
+    subcategories:
+      - subcategory:
+        name: Analytics
+        items:
+          - item:
+            name: Amazon Athena 
+            description: >-
+              Amazon Athena is a serverless, interactive query service that lets you analyze data stored in Amazon S3 using standard SQL.
+            homepage_url: https://aws.amazon.com/athena/
+            logo: athena.svg
+          - item:
+            name: AWS Glue
+            description: >-
+              AWS Glue is a serverless data integration service offered by Amazon Web Services (AWS).
+              It simplifies the process of preparing and combining data for analytics, machine learning, and application development.
+            homepage_url: https://aws.amazon.com/glue/
+            logo: glue.svg
+          - item:
+            name: Amazon MSK
+            description: >-
+               This service by Amazon Web Services lets you leverage the power of Apache Kafka, a popular platform for streaming data, without the hassle of managing its servers and configurations. 
+               With Amazon MSK, you can focus on building and running your applications, while Amazon takes care of the Kafka infrastructure, ensuring real-time data processing and seamless integration with your existing Kafka tools and applications.
+            homepage_url: https://aws.amazon.com/msk/
+            logo: msk.svg
+          - item:
+            name: Amazon OpenSearch Service
+            description: >-
+              Amazon OpenSearch Service is a managed offering that makes deploying and running OpenSearch, a powerful search and analytics engine, a breeze. 
+              It allows you to easily search through large volumes of data for log analytics, real-time application monitoring, website search, and more. 
+            homepage_url: https://aws.amazon.com/opensearch-service/
+            logo: opensearch.svg
+      - subcategory:
+        name: Containers
+        items:
+          - item:
+            name: Amazon EKS
+            description: >-
+              Amazon EKS it's a managed Kubernetes service, meaning you don't need to set up and maintain Kubernetes control planes yourself.
+              EKS lets you focus on deploying and scaling your containerized applications while Amazon takes care of the underlying infrastructure, 
+              making it easier to leverage the benefits of containerization without the management burden.
+            homepage_url: https://aws.amazon.com/eks/
+            logo: eks.svg
+          - item:
+            name: Amazon ECS
+            description: >-
+              Amazon ECS offers a simpler way to deploy, manage, and scale containerized applications on AWS.
+              Unlike EKS, it doesn't require managing a Kubernetes control plane. You choose how your containers run, either on Amazon EC2 instances or using the serverless option with AWS Fargate. 
+              This flexibility makes ECS a good option for those who want a more hands-on approach to container orchestration on AWS.
+            homepage_url: https://aws.amazon.com/ecs/
+            logo: ecs.svg
+          - item:
+            name: Amazon ECR
+            description: >-
+              Amazon ECR acts as your secure storage locker for container images on AWS.  Imagine it as a private Docker registry specifically designed for Amazon Web Services.
+              With Amazon ECR, you can store, manage, deploy, and share your container images in a highly available and scalable way. 
+            homepage_url: https://aws.amazon.com/ecr/
+            logo: ecr.svg
+      - subcategory:
+        name: Cryptography & PKI
+        items:
+          - item:
+            name: AWS KMS
+            description: >-
+              AWS KMS, or Amazon Key Management Service, is your central vault for encryption keys on AWS. 
+              Think of it as a high-security bank for the digital keys that protect your data. 
+            homepage_url: https://aws.amazon.com/kms/ 
+            logo: kms.svg
+      - subcategory:
+        name: Database
+        items:
+          - item:
+            name: Amazon RDS
+            description: >-
+              Amazon Relational Database Service (RDS) is a managed database service offered by Amazon Web Services (AWS).
+            homepage_url: https://aws.amazon.com/rds/
+            logo: rds.svg
+          - item:
+            name: Amazon Keyspaces
+            description: >-
+              Amazon Keyspaces is a managed Apache Cassandra-compatible database service offered by Amazon Web Services (AWS). 
+            homepage_url: https://aws.amazon.com/keyspaces/
+            logo: keyspaces.svg
+          - item:
+            name: Amazon ElastiCache
+            description: >-
+              Amazon ElastiCache is a managed in-memory data store and cache service offered by Amazon Web Services (AWS). 
+              It acts as a high-speed layer between your application and database, storing frequently accessed data in memory for quicker retrieval. 
+            homepage_url: https://aws.amazon.com/elasticache/
+            logo: elasticache.svg
+      - subcategory:
+        name: Developer Tools
+        items:
+          - item:
+            name: AWS CodeArtifact
+            description: >-
+              AWS CodeArtifact is a secure and scalable service for storing and sharing software packages within your organization.
+              Imagine it as a private warehouse for your code, allowing you to manage different versions of software components and share them securely with your development teams.
+            homepage_url: https://aws.amazon.com/codeartifact/
+            logo: codeartifact.svg
+      - subcategory:
+        name: Security, Identity, & Compliance
+        items:
+          - item:
+            name: AWS Identity and Access Management
+            description: >-
+              AWS Identity and Access Management (IAM) is a core AWS service that allows you to securely control who can access your AWS resources and what actions they can perform.
+            homepage_url: https://aws.amazon.com/iam/
+            logo: iam.svg
+      - subcategory:
+        name: Storage
+        items:
+          - item:
+            name: Amazon S3
+            description: >-
+              Amazon S3, or Amazon Simple Storage Service, is a scalable and object storage service offered by Amazon Web Services (AWS). 
+            homepage_url: https://aws.amazon.com/s3/
+            logo: s3.svg
+          - item:
+            name: Amazon EFS
+            description: >-
+              Amazon Elastic File System (Amazon EFS) provides scalable, parallel file storage for use with your AWS applications. 
+              Imagine it as a shared file server that can grow and shrink automatically as your data storage needs change. 
+            homepage_url: https://aws.amazon.com/efs/
+            logo: efs.svg
+          - item:
+            name: AWS DataSync
+            description: >-
+              AWS DataSync is a managed data transfer service that simplifies moving large datasets between on-premises storage and AWS storage services.
+              It automates and accelerates data transfers, eliminating the need for manual processes or complex scripting.
+            homepage_url: https://aws.amazon.com/datasync/
+            logo: datasync.svg
